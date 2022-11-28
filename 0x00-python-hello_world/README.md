@@ -7,3 +7,4 @@ Complete this source code in order to print 3 times a string stored in the varia
 Complete this source code to print Welcome to Holberton School!
 This program will print 3 strings in new lines
 Complete this source code to print object-oriented programming with Python, followed by a new line.
+Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
