@@ -19,3 +19,4 @@ Write a function that checks for lowercase character.
 Write a function that prints a string in uppercase followed by a new line
 Write a function that prints the last digit of a number.
 Write a function that adds two integers and returns the result
+Write a function that computes a to the power of b and return the value.
