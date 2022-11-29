@@ -16,3 +16,4 @@ Write a program that prints all numbers from 0 to 98 in decimal and in hexadecim
 Write a program that prints numbers from 0 to 99
 Write a program that prints all possible different combinations of two digits.
 Write a function that checks for lowercase character.
+Write a function that prints a string in uppercase followed by a new line
