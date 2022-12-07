@@ -15,3 +15,4 @@ Write a function that returns the weighted average of all integers tuple (<score
 Write a function that deletes keys with a specific value in a dictionary.
 Write a function that deletes keys with a specific value in a dictionary.
 Write a function that deletes keys with a specific value in a dictionary.
+Create two C functions that print some basic info about Python lists and Python bytes objects.
