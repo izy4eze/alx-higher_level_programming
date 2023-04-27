@@ -7,6 +7,6 @@ fs.readFile(filename, 'utf-8', (erro, content) => {
   if (erro) {
     console.log(erro);
   } else {
-    console.log(content)
+    console.log(content);
   }
 });  
