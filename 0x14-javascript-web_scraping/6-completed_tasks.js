@@ -1,18 +1,21 @@
-#!/usr/bin/node
-
-const request = require('request');
-const fs = require('fs');
+t request = require('request');
 const url = process.argv[2];
-const file = process.argv[3];
 
-request(url, (error, response, body) => {
+request.get(url, { json: true }, (error, response, body) => {
   if (error) {
     console.log(error);
-  } else {
-    fs.writeFile(file, body, 'utf8', (error) => {
-      if (error) {
-        console.log(error);
-      }
-    });
+    return;
   }
+
+  const tasksCompleted = {};
+  body.forEach((todo) => {
+    if (todo.completed) {
+      if (!tasksCompleted[todo.userId]) {
+        tasksCompleted[todo.userId] = 1;
+      } else {
+        tasksCompleted[todo.userId] += 1;
+      }
+    }
+  });
+  console.log(tasksCompleted);
 });
